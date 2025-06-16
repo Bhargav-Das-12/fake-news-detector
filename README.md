@@ -15,11 +15,11 @@ This project proposes a machine learning-based classifier that processes and ana
 ---
 
 ## Project Setup Instructions (Clone & Run):
-<pre><code># 1. Clone the repo git clone https://github.com/your-username/your-repo-name.git 
+<pre><code> # 1. Clone the repo git clone https://github.com/your-username/your-repo-name.git 
   cd your-repo-name 
   # 2. Install dependencies pip install -r requirements.txt 
   # 3. Train the model (if .pkl files are not present) python train_model.py 
-  # 4. Make predictions or run app python predict.py ```</code></pre>
+  # 4. Make predictions or run app python predict.py</code></pre>
 ---
 ### Folder Structure:
 <pre><code>
