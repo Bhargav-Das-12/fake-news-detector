@@ -1,5 +1,3 @@
-# fake-news-detector
-A machine learning-based Fake News Detector using TF-IDF and Logistic Regression. This project helps identify whether a news article is real or fake with high precision.
 # 📰 Fake News Detector using Machine Learning
 
 ---
@@ -16,6 +14,39 @@ This project proposes a machine learning-based classifier that processes and ana
 
 ---
 
+## Project Setup Instructions (Clone & Run):
+# 1. Clone the repo
+git clone https://github.com/Bhargav-Das-12/fake-news-detector.git
+cd fake-news-detector
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the model training script (if .pkl files not available)
+python model/train_model.py
+
+# 4. Run predictions or app (optional)
+python predict.py
+---
+### Folder Structure:
+fake-news-detector/
+├── data/
+│   ├── Fake.csv
+│   └── True.csv
+├── model/
+│   ├── fake_news_model.pkl
+│   └── tfidf_vectorizer.pkl
+├── notebooks/
+│   └── FakeNewsDetection.ipynb
+├── results/
+│   ├── confusion_matrix.png
+│   └── precision_recall_chart.png
+├── README.md
+├── requirements.txt
+├── predict.py
+└── train_model.py
+
+---
 ## 🛠️ Technologies Used
 
 - Python
