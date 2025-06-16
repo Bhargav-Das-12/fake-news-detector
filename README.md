@@ -15,7 +15,11 @@ This project proposes a machine learning-based classifier that processes and ana
 ---
 
 ## Project Setup Instructions (Clone & Run):
-<pre><code>```bash # 1. Clone the repo git clone https://github.com/your-username/your-repo-name.git cd your-repo-name # 2. Install dependencies pip install -r requirements.txt # 3. Train the model (if .pkl files are not present) python train_model.py # 4. Make predictions or run app python predict.py ```</code></pre>
+<pre><code>```bash # 1. Clone the repo git clone https://github.com/your-username/your-repo-name.git 
+cd your-repo-name 
+  # 2. Install dependencies pip install -r requirements.txt 
+  # 3. Train the model (if .pkl files are not present) python train_model.py 
+  # 4. Make predictions or run app python predict.py ```</code></pre>
 ---
 ### Folder Structure:
 <pre><code>```bash fake-news-detector/ ├── data/ │ ├── Fake.csv │ └── True.csv ├── model/ │ ├── fake_news_model.pkl │ └── tfidf_vectorizer.pkl ├── notebooks/ │ └── FakeNewsDetection.ipynb ├── results/ │ ├── confusion_matrix.png │ └── precision_recall_chart.png ├── README.md ├── requirements.txt ├── predict.py └── train_model.py ```</code></pre>
