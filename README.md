@@ -34,6 +34,22 @@ This project proposes a machine learning-based classifier that processes and ana
 - **Model**: Trained a `Logistic Regression` model to classify articles as fake or real.
 - **Evaluation**: Evaluated model using accuracy, confusion matrix, precision & recall metrics.
 - **Deployment**: (Optional) This project can be converted into a web app using Flask or Streamlit.
+---
+## How the Model Classifies News:
+Preprocessing:
+Converts news text to lowercase, removes punctuation, numbers, stopwords, and unwanted characters.
+
+Vectorization:
+Uses TF-IDF to turn cleaned text into numerical features highlighting important words.
+
+Model Training:
+Trains a Logistic Regression model to learn patterns from labeled real and fake news.
+
+Prediction:
+For new input, the same preprocessing and vectorization are applied, and the model predicts “Fake” or “Real”.
+
+Evaluation:
+Performance measured using Accuracy, Precision, Recall, F1-score, confusion matrix, and bar charts.
 
 ---
 
